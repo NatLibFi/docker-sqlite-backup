@@ -1,4 +1,4 @@
-FROM mariadb:10
+FROM python:3-alpine
 ENTRYPOINT ["/entrypoint.sh"]
 
 ENV DUMP_DIRECTORY /dump
